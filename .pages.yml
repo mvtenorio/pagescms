@@ -7,3 +7,14 @@ content:
       - name: title
         label: Title
         type: text
+      - name: date
+        label: Date
+        type: date
+    view:
+      fields: [ title ]
+      primary: title
+      sort: [ date, title ]
+      default:
+        search: ''
+        sort: title
+        order: desc
